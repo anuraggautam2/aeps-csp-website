@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Services</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<h2>Book a Service</h2>
+
+<form id="bookingForm">
+  <input type="text" id="name" placeholder="Your Name" required>
+  <input type="text" id="service" placeholder="Service Required" required>
+  <input type="date" id="date" required>
+  <button type="submit" class="btn primary">Send on WhatsApp</button>
+</form>
+
+<div id="fallback" style="display:none;">
+  <p>If WhatsApp didn’t open:</p>
+  <a id="manualLink" class="btn secondary">Click to Send</a>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
 
